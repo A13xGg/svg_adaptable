@@ -1,0 +1,88 @@
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+
+
+body {
+    margin: 0;
+   position: fixed;
+   
+
+}
+
+div{
+    background-color: #B7090A;
+    width: 100vw;
+    height: 100dvh;
+     cursor: pointer;
+}
+
+
+
+
+
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/sinGafas.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/marvel.png');
+    background-size: contain;
+    background-position: center;
+     background-repeat: no-repeat;
+}
+
+.img3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/conGafas.png');
+    background-size: contain;
+    background-position: center;
+     background-repeat: no-repeat;
+}
+
+.img4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/manuel.png');
+    background-size:contain;
+    background-position: center;
+     background-repeat: no-repeat;
+}
+
+
+
+
+.container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container svg.active {
+    opacity: 1;
+}
+.img0 {
+      width: 100%;
+    height: 100%;
+    background-image: url('../img/tambor.gif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
